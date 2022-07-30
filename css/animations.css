@@ -1,0 +1,62 @@
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rotate3 {
+  from {
+    transform: rotate(450deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes slide1 {
+  from {
+    transform: translateY(-60px);
+  }
+  to {
+    transform: translateY(520px);
+  }
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(220px);
+  }
+}
+
+@keyframes slide3 {
+  from {
+    transform: translateX(-1230px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes start {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
